@@ -2,7 +2,6 @@
 layout: post
 title: "This post demonstrates post content styles"
 categories: github
-meta: "Springfield"
 ---
 This page is for my own understanding of the theme syntax.
 
