@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: theory
 ---
 
 Week 2 covered constructs and operationalization methods. The concept NOIR  (nominal, ordinal, interval, ratio) regarding 'characteristic' operationalization will certainly follow the course's project. 
