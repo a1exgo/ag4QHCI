@@ -21,5 +21,6 @@ ggplot(data = <df>)
   + geom_point(mapping = aes(x = displ, y = hwy, shape = class))
 ```
 
-- Changes outside the aes() function need to be sepcified, as no variable mapping is defined.
+- Changes outside the aes() function need to be sepcified, as no variable mapping is defined. Colors are string, shapes are numbers:
+![image](ag4QHCI/shapes-1.png)
 
