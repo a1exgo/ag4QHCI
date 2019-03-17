@@ -16,4 +16,8 @@ ggplot::<df>
 ggplot(data = <df>) + 
   <GEOM_FUNCTION>(mapping = aes(<MAPPINGS>))
 ```
-- 
+- The aes() function can be 'modified' by assigning the following defintion to a variable (categorical variables seem to work best): color=, size=, alpha=, shape=, 
+    ```
+   + geom_point(mapping = aes(x = displ, y = hwy, shape = class))
+```
+    
