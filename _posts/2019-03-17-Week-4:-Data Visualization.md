@@ -33,8 +33,9 @@ ggplot(data = <df>) +
  (..)
  
  - In general, ggplot2 can be controlled by the following code structure (a.k.a layered grammar of graphics):
- ggplot(data = <DATA>) + 
 ```
+ggplot(data = <DATA>) + 
+
   <GEOM_FUNCTION>(
      mapping = aes(<MAPPINGS>),
      stat = <STAT>, 
