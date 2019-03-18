@@ -24,9 +24,24 @@ ggplot(data = <df>) +
 - Changes outside the aes() function need to be sepcified, as no variable mapping is defined. Colors are string, shapes are numbers:
 ![image](https://d33wubrfki0l68.cloudfront.net/2705b59d57362a103f0dad04b0ccfdeff9a101d2/3dc1b/visualize_files/figure-html/shapes-1.png)
 
-- Faceting enables the possibility to show graphs depending on certain aspects of a (mostly categorical) variable, e.g. using class as 'faceted' variable (and the number of rows that should be displayed):
+- Faceting enables the possibility to show graphs depending on certain aspects of a (mostly categorical) variable, e.g. using class as 'faceted' variable (and the number of rows that should be displayed, alternatively ncol= can be used analogously):
 ```
    facet_wrap(~ <variable>, nrow = 2)
 ```
-   - Facet grid on the other hand creates axes and puts the different facets in it. Moreover one has to specify whether facets should be presented vertically (. ~ <variable>) or horizontally (<variable> ~ .).
+   - Facet grid on the other hand creates axes and puts the different facets in it. Moreover one has to specify whether facets should be presented vertically (. ~ <variable>) or horizontally (<variable> ~ .). One should usually put the variable with more unique levels in the columns (unless one wants a very long paper..)
+   
+ (..)
+ 
+ - In general, ggplot2 can be controlled by the following code structure (a.k.a layered grammar of graphics):
+ ggplot(data = <DATA>) + 
+```
+  <GEOM_FUNCTION>(
+     mapping = aes(<MAPPINGS>),
+     stat = <STAT>, 
+     position = <POSITION>
+  ) +
+  <COORDINATE_FUNCTION> +
+  <FACET_FUNCTION>
+```
+ 
 
