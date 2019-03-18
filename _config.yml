@@ -13,9 +13,9 @@
 # you will see them accessed via {{ site.title }}, {{ site.author }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Code library for QHCI
+title: ag's code library for QHCI
 author: Alexander
-description: code library for Quantitative Methods in HCI
+description: Code Library for Quantitative Methods in HCI
 baseurl: "/ag4QHCI" # the subpath of your site, e.g. /blog
 url: "https://a1exgo.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 lang: en
