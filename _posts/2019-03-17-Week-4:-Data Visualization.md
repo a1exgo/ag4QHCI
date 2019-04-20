@@ -44,5 +44,27 @@ ggplot(data = <DATA>) +
   <COORDINATE_FUNCTION> +
   <FACET_FUNCTION>
 ```
+#### Chapter 28
+This chapter is about incorporating the target group's view into the creation process of plots. To achieve this, the chapter involves again ggplot2 and dplyr and additionally ggrepel and viridis.
+
+Specifically the chapter focuesses on implementing/manipulating/adding the following to the graphs:
+- Labels
+Can be added with the following layer:
+```
+labs( title = "This is my title to the graph I created in the lines above"
+      subtitle = "This adds a smaller title below the title"
+      caption = "This adds a caption in the lower rights          )
+```
+Moreover, we can use the function also to name the axes:
+```
+labs( x = "Name for the x-axis",
+      y = "Name fot the y-axis",
+    colour = "Car type"
+```
+
+- Anotations
+- Scales
+- Zooming
+- Themes
  
 
