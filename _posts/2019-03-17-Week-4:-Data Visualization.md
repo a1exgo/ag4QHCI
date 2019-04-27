@@ -1,5 +1,5 @@
 ### R4DS
-#### Chapter 3
+#### Chapter 3 (Data visualisation)
 This chapter conptualizes the use of the package ggplot. As a prerequisit tidyverse is necessary.
 
 - Test data frames (=<df>) with:
@@ -28,6 +28,7 @@ ggplot(data = <df>) +
  (..)
  
  - In general, ggplot2 can be controlled by the following code structure (a.k.a layered grammar of graphics):
+ 
 ```html
 ggplot(data = <DATA>) + 
 
@@ -39,7 +40,8 @@ ggplot(data = <DATA>) +
   <COORDINATE_FUNCTION> +
   <FACET_FUNCTION>
 ```
-#### Chapter 28
+
+#### Chapter 28 (Graphics for communication)
 This chapter is about incorporating the target group's view into the creation process of plots. To achieve this, the chapter involves again ggplot2 and dplyr and additionally ggrepel and viridis.
 
 Specifically the chapter focuesses on implementing/manipulating/adding the following to the graphs:
