@@ -7,6 +7,15 @@ categories: theory
 The chapters to read covered workflow suggestions about basics, scripts and projects. 
 The basics chapter 4 introduced basic functions of R that included the language's requirements and variable creation.
 
+- Pipes
+Useful are a nice tool (or rather operator) within the dplyr package (provided by the margrittr package). With pipes we can 'break up' chained functions and forward a value, or the result of an expression, into the next function call/expression. For instance, it may help with a creating regression tables:
+```
+<dataframe> %>%
+        filter(<subsetting_variable> > 1) %>%
+        lm(<dependent_variable> ~ <independent_variable1> + <independent_variable2>, data = .) %>%
+        summary()
+```
+data aggregation works easier:
 
 
 #NOIR
