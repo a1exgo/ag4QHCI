@@ -33,7 +33,7 @@ ggplot(data = <df>) +
  (..)
  
  - In general, ggplot2 can be controlled by the following code structure (a.k.a layered grammar of graphics):
-```
+```html
 ggplot(data = <DATA>) + 
 
   <GEOM_FUNCTION>(
