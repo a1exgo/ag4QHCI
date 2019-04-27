@@ -1,8 +1,3 @@
----
-layout: post
-categories: theory
----
-
 ### R4DS
 #### Chapter 3
 This chapter conptualizes the use of the package ggplot. As a prerequisit tidyverse is necessary.
