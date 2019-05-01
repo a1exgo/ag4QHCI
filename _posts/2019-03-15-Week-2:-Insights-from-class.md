@@ -2,12 +2,12 @@
 layout: post
 categories: theory
 ---
-###R4DS
-####Chapter 4, 6, 8
+### R4DS
+#### Chapter 4, 6, 8
 The chapters to read covered workflow suggestions about basics, scripts and projects. 
 The basics chapter 4 introduced basic functions of R that included the language's requirements and variable creation.
 
-####Class
+#### Class
 **NOIR**
 Week 2 covered constructs and operationalization methods. The concept NOIR  (nominal, ordinal, interval, ratio) regarding 'characteristic' operationalization will certainly follow the course's project. 
 
