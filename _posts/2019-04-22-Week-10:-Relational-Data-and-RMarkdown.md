@@ -27,3 +27,4 @@ warning = FALSE  |			   |            |        |       |           |x
 knitr::kable(
   <dataframe>[1:5, ], 
   caption = "Table title"
+```
