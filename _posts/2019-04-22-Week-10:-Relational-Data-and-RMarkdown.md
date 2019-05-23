@@ -6,7 +6,7 @@ This chapter is about relational algebra.
 R Markdown `library(rmarkdown)` is like a notebook for R where comments and code (with output) can be combined and later knited to HTML.
 
 - Formatting
-[link](https://www.dropbox.com/s/wizjp87dozdo8rb/rmarkdown-cheatsheet.pdf?dl=0)
+Check this cheatsheet: [link](https://www.dropbox.com/s/wizjp87dozdo8rb/rmarkdown-cheatsheet.pdf?dl=0)
 
 - Code chunks can be implented differently, i.e. chunk options
 Call with ALT+CMD+I: and write just after ````{r <option>, <option>}
@@ -23,7 +23,7 @@ warning = FALSE  |			   |            |        |       |           |x
 
 
 - Make tables:
-```r
+```html
 knitr::kable(
   <dataframe>[1:5, ], 
   caption = "Table title"
