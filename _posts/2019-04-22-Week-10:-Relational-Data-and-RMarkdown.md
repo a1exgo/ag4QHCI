@@ -6,10 +6,10 @@ This chapter is about relational algebra.
 R Markdown `library(rmarkdown)` is like a notebook for R where comments and code (with output) can be combined and later knited to HTML.
 
 - Text formating
-```R
+```
 ------------------------------------------------------------
 
-*italic*  or _italic_
+\*italic*  or _italic_
 **bold**   __bold__
 `code`
 superscript^2^ and subscript~2~
@@ -55,4 +55,4 @@ First Header  | Second Header
 Content Cell  | Content Cell
 Content Cell  | Content Cell
 
-
+```
