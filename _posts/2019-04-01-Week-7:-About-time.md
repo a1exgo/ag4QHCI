@@ -54,5 +54,16 @@ Also, we can convert variable values to:
       x + ddays(1)
       [1] "2019-04-02 CEST"
       ```
-
-
+      
+- intervals: You can use the commands to set time
+      ```html
+      years(1) / days(1)
+      #> estimate only: convert to intervals for accuracy
+      #> [1] 365
+      ```
+      ```html
+      next_year <- today() + years(1)
+      (today() %--% next_year) / ddays(1)
+      #> [1] 365
+      ```
+      ```
