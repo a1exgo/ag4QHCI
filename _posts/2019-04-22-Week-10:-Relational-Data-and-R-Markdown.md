@@ -1,7 +1,4 @@
 ### R4DS
-#### Chapter 13 (Relational Algebra)
-This chapter is about relational algebra.
-
 #### Chapter 27 (R Markdown)
 R Markdown `library(rmarkdown)` is like a notebook for R where comments and code (with output) can be combined and later knited to HTML.
 
@@ -28,3 +25,13 @@ knitr::kable(
   <dataframe>[1:5, ], 
   caption = "Table title"
 ```
+
+#### Chapter 13 (Relational Data)
+This chapter is about relational data. Nice codes snippets are listed below:
+
+- counts
+  ```html
+  <dataframe> %>% 
+  count(<variable>) %>% 
+  filter(n > 1)
+  ```
