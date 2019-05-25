@@ -2,7 +2,7 @@
 #### Chapter 27 (R Markdown)
 R Markdown `library(rmarkdown)` is like a notebook for R where comments and code (with output) can be combined and later knited to HTML.
 
-- Formatting
+- Formatting:
 Check this cheatsheet: [link](https://www.dropbox.com/s/wizjp87dozdo8rb/rmarkdown-cheatsheet.pdf?dl=0)
 
 - Code chunks can be implented differently, i.e. chunk options
