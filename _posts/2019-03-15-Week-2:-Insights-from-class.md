@@ -25,10 +25,10 @@ Useful are a nice tool (or rather operator) within the dplyr package (provided b
         lm(<dependent_variable> ~ <independent_variable1> + <independent_variable2>, data = .) %>%
         summary()
 ```
-data aggregation works easier:
-```html
-<dataframe> %>% summary()
-        
+- data aggregation works easier:
+        ```html
+        <dataframe> %>% summary()
+        ```
 
 {% comment %}
 Might you have an include in your theme? Why not try it here!
