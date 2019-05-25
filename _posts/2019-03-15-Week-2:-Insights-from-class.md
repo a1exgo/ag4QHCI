@@ -26,13 +26,9 @@ Useful are a nice tool (or rather operator) within the dplyr package (provided b
         summary()
 ```
 - data aggregation works easier:
-        ```html
-        <dataframe> %>% summary()
-        ```
+ ```html
+ <dataframe> %>% summary()
+ ```
 
-{% comment %}
-Might you have an include in your theme? Why not try it here!
-{% include my-themes-great-include.html %}
-{% endcomment %}
 
 
