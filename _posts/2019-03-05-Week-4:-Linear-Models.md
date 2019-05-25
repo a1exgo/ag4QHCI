@@ -35,7 +35,7 @@ anova_Model1
            <IV1> = "Tukey",
            <IV2> = "Tukey"))
     ```
-  - ..if not statistically significant
+  - ..if statistically significant
    ```html
    m_main <-  update(Model1, .~. - <IV1>:<IV2>)
    ```
