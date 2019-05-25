@@ -8,7 +8,7 @@ categories: theory
 This chapter is about data transformation that means bringing the data in shape for the analysis.
 
 **Dplyr as data transformator's tool**
-Dplyr's main manipulation commands are:
+`library(Dplyr)'s main manipulation commands are:
 
 - filter() : filter data for certain values 
   useful for subsetting:
