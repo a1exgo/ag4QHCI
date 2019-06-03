@@ -1,6 +1,6 @@
 #### R4DS
 ### Chapter 16 (Dates & Times)
-This chapter is about working with dates and times. As some countries have DST or are located in different time zones or leap year are existent, the topic may be relevant. It uses the package `lubricate`.
+This chapter is about working with dates and times. As some countries have DST or are located in different time zones or leap year are existent, the topic may be relevant. It uses the package `lubridate`.
 
 - Transform date from a string (with bringing y, m, and d in the correct order). Note that his works only if the data is appropriate (otherwise it won't parse):
 ```
